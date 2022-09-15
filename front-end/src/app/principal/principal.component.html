@@ -1,0 +1,54 @@
+<p-toast></p-toast>
+<div class="grid">
+  <div class="col-12">
+    <menubar (configuraProjeto)="configura($event)"></menubar>
+  </div>
+</div>
+<div class="grid">
+  <div class="col-12 md:col-6 lg:col-4">
+    <p-panel header="Issue X Column">
+      <ng-template #wip></ng-template>
+    </p-panel>
+  </div>
+
+  <div class="col-12 md:col-6 lg:col-4">
+    <p-panel header="CFD (Cumulative Flow Diagram)">
+      <ng-template #cfd></ng-template>    
+    </p-panel>
+  </div>
+  <div class="col-12 md:col-6 lg:col-4">
+    <p-panel header="Throughput">
+      <ng-template #thr></ng-template>    
+    </p-panel>
+  </div>
+  <div class="col-12 md:col-6 lg:col-4">
+    <p-panel header="Lead Time">
+      <ng-template #lea></ng-template>     
+    </p-panel>
+  </div>
+
+  <div class="col-12 md:col-6 lg:col-4">
+    <div class="col-4"></div>
+
+    
+    <div class="col-4 my-center-text middle-div">
+      <img style="max-height: 135px;max-width: 154px;" src="assets/images/giro2.jpg" alt="Giro" />
+      <i class="pi pi-check-circle" style="font-size: 2rem"></i>
+    </div>
+
+    <div class="col-4"></div>
+    </div>
+
+  <div class="col-12 md:col-6 lg:col-4">
+    <p-panel header="Cycle Time">
+      <ng-template #cyc></ng-template>     
+    </p-panel>
+  </div>
+
+  
+
+
+</div>
+<div class="progress-spinner" *ngIf="load">
+  <p-progressSpinner></p-progressSpinner>
+</div>

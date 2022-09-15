@@ -1,0 +1,14 @@
+<div><label>Order Column</label></div>
+<div>
+  <br/>
+  <p-orderList [value]="colunas" [dragdrop]="true" (onReorder)="onReorder()">
+    <ng-template let-coluna pTemplate="item">
+        <div>
+            <div>
+                <h5>{{coluna.name}}</h5>
+            </div>
+        </div>
+    </ng-template>
+  </p-orderList>
+</div>
+      

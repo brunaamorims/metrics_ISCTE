@@ -1,0 +1,84 @@
+<p-toast></p-toast>
+<p-menubar [model]="items">
+  <ng-template pTemplate="start">
+    <img src="assets/images/giro1.jpg" height="40" class="mr-2">
+  </ng-template>
+</p-menubar>
+<p-dialog header="Settings" [(visible)]="displayModal" [modal]="true" [style]="{width: '60vw'}" [baseZIndex]="10000"
+    [draggable]="false" [resizable]="false">
+    <div class="grid">
+      <div class="col-12 md:col-6 lg:col-6">
+        <label>User name</label>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <label>Token</label>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <!-- <input id="user" type="text" pInputText [(ngModel)]="user" (blur)="getProjetos()">--> 
+        <input id="user" type="text" pInputText [(ngModel)]="user" (blur)="getRepositorios()">         
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <!-- <input id="token" type="password" pInputText [(ngModel)]="token" (blur)="getProjetos()">--> 
+        <input id="token" type="password" pInputText [(ngModel)]="token" (blur)="getRepositorios()">
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <label>Repository</label>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <label>Project</label>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <p-dropdown [options]="repositorys" [(ngModel)]="repository" placeholder="Select a Repository" optionLabel="name" [showClear]="true" emptyMessage="No Records!" (onChange)="getProjetos()" ></p-dropdown>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <p-dropdown [options]="projetos" [(ngModel)]="projeto" placeholder="Select a Project" optionLabel="value" [showClear]="true" emptyMessage="No Records!" (onChange)="onChange($event)"></p-dropdown>
+      </div>
+
+      <div class="col-12 md:col-6 lg:col-6">
+        <label>Column to do</label>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <label>Column in progress</label>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <p-dropdown [options]="colunas" [(ngModel)]="colunato" placeholder="Select a column" optionLabel="name" [showClear]="true" emptyMessage="No Records!"></p-dropdown>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <p-dropdown [options]="colunas" [(ngModel)]="colunain" placeholder="Select a column" optionLabel="name" [showClear]="true" emptyMessage="No Records!"></p-dropdown>
+      </div>
+      <div class="col-12 md:col-12 lg:col-12">
+        <ng-template #dynamic></ng-template>
+      </div>
+
+      <div class="col-12 md:col-6 lg:col-6">
+        <label>Frequency</label>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+      </div>  
+      <div class="col-12 md:col-6 lg:col-6">
+        <p-dropdown [options]="periodicidades" [(ngModel)]="periodicidade" placeholder="Select a Frequency" optionLabel="value" [showClear]="true" emptyMessage="No Records!"></p-dropdown>
+      </div>      
+      <div class="col-12 md:col-6 lg:col-6"></div>
+
+
+      <div class="col-12 md:col-6 lg:col-6">
+        <label>Start Date</label>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <label>End Date</label>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <p-calendar [(ngModel)]="date1" dateFormat="dd/mm/yy" [showIcon]="true" inputId="icon1" appendTo="body"></p-calendar>
+      </div>
+      <div class="col-12 md:col-6 lg:col-6">
+        <p-calendar [(ngModel)]="date2" dateFormat="dd/mm/yy" [showIcon]="true" inputId="icon2" appendTo="body"></p-calendar>
+      </div>
+    </div>
+    <ng-template pTemplate="footer">
+        <p-button icon="pi pi-check" (click)="configurar()" label="Sim" class="p-button-text"></p-button>
+        <p-button icon="pi pi-times" (click)="displayModal=false" label="Não"></p-button>
+    </ng-template>
+    <div class="progress-spinner" *ngIf="load">
+      <p-progressSpinner></p-progressSpinner>
+    </div>
+</p-dialog>
