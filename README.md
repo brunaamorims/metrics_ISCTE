@@ -72,7 +72,7 @@ Clicking on the issue -> will open the following option to close.
 ![image](https://user-images.githubusercontent.com/93287789/190504596-5b5d3eab-e254-48a8-9460-5be2bb0316c4.png)
 
 
-# Tool
+# Giro
 
 Link: http://3.249.103.74/
 
@@ -94,7 +94,30 @@ c.	Select the frenquency to see the data: day, week or month.
 
 ![image](https://user-images.githubusercontent.com/93287789/190506841-ed2e7516-bce6-47d4-951b-8b1603fe92f3.png)
 
+d.	Configure which column corresponds "To Do" and "In Progress".
 
+![image](https://user-images.githubusercontent.com/93287789/190619574-165ece24-1eff-434b-9eb6-eac3057741e0.png)
+
+e.	Define the order of the columns (From Done to Done)
+![image](https://user-images.githubusercontent.com/93287789/190620087-62cd952c-9498-4956-a54d-44008d535e66.png)
+
+f.	Select start and end date of the issues.
+![image](https://user-images.githubusercontent.com/93287789/190620398-3e77d6e5-9778-487f-b982-906eee3931e3.png)
+
+3)  The chart will show the result of the metrics.
+
+a.	Issue x Column: Current quantity of issues per column
+
+b.	CFD: graph showing the work progress 
+
+c.	Throughput: Issues closed in the period
+
+d.	Lead Time: Amount in days of "data close issue - data issue in To Do".
+
+e.	Cycle Time: Amount in days of "data close issue - data issue in In Progress".
+
+
+![image](https://user-images.githubusercontent.com/93287789/190621537-6ceddfeb-9253-47e3-8144-938982d8fc5b.png)
 
 
 
