@@ -72,7 +72,7 @@ Clicking on the issue -> will open the following option to close.
 ![image](https://user-images.githubusercontent.com/93287789/190504596-5b5d3eab-e254-48a8-9460-5be2bb0316c4.png)
 
 
-# Giro
+# Giro (http://3.249.103.74/)
 
 Link: http://3.249.103.74/
 
