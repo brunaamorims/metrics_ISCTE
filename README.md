@@ -82,31 +82,36 @@ Link: http://3.249.103.74/
 
 You need to create an access token on GitHub: https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token.
 
-1) Set the start settings by clicking on "Settings". 
-![image](https://user-images.githubusercontent.com/93287789/190505938-c60d98c6-5efa-41fe-8dce-7c60abcd9dad.png)
+1) Set the start settings by clicking on "Settings".
+ 
+![img.png](images/settings.png)
 
 2) Settings screen:
 a.	Enter GitHub user name and token.
 
-![image](https://user-images.githubusercontent.com/93287789/190506187-5feed308-6baa-4095-978d-8556f4442e03.png)
+![img.png](images/nametoken.png)
 
 b.	Select the repository and the Kanban project.
-![image](https://user-images.githubusercontent.com/93287789/190506393-f77f3a62-bbac-49d5-8599-85c23c269006.png)
-![image](https://user-images.githubusercontent.com/93287789/190506405-9327a914-f489-43fa-ae18-62099b9f20f8.png)
+
+![img.png](images/repository.png)
+
+![img.png](images/projectTool.png)
 
 c.	Select the frenquency to see the data: day, week or month.
 
-![image](https://user-images.githubusercontent.com/93287789/190506841-ed2e7516-bce6-47d4-951b-8b1603fe92f3.png)
+![img.png](images/frequency.png)
 
 d.	Configure which column corresponds "To Do" and "In Progress".
 
-![image](https://user-images.githubusercontent.com/93287789/190619574-165ece24-1eff-434b-9eb6-eac3057741e0.png)
+![img.png](images/columntodo.png)
 
 e.	Define the order of the columns (From Done to Done)
-![image](https://user-images.githubusercontent.com/93287789/190620087-62cd952c-9498-4956-a54d-44008d535e66.png)
+
+![img.png](images/order.png)
 
 f.	Select start and end date of the issues.
-![image](https://user-images.githubusercontent.com/93287789/190620398-3e77d6e5-9778-487f-b982-906eee3931e3.png)
+
+![img.png](images/selectdate.png)
 
 3)  The chart will show the result of the metrics.
 
@@ -120,8 +125,7 @@ d.	Lead Time: Amount in days of "data close issue - data issue in To Do".
 
 e.	Cycle Time: Amount in days of "data close issue - data issue in In Progress".
 
-
-![image](https://user-images.githubusercontent.com/93287789/190621537-6ceddfeb-9253-47e3-8144-938982d8fc5b.png)
+![img.png](images/charts.png)
 
 
 
