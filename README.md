@@ -22,7 +22,7 @@ Rules:
 
 1)  View your repositories.
 
-![image](https://user-images.githubusercontent.com/93287789/190499891-9652a8f9-ffae-4d6b-860e-5f4195bd0597.png)
+![img.png](images/repositories.png)
 
 2) Create new project (Kanban board) for the repository.
 
