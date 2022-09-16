@@ -31,6 +31,7 @@ a.	Go to the "Projects" tab
 b.	Option "Projects"
 
 c.	Click on "New Project"
+
 ![img.png](images/project.png)
 
 3) Enter the required data from the Board and click on "Create Project".
@@ -47,6 +48,7 @@ c.	Template: Select the "Basic Kanban" template.
 
 
 4) The frame will be created as follows.
+
 ![img.png](images/projectteste.png)
 
 5) To create issues click on the "+", set card text and add (Add).
@@ -54,6 +56,7 @@ c.	Template: Select the "Basic Kanban" template.
 ![img.png](images/projetoteste1.png)
 
 6) After creation, you must convert the card to issue. Click on the three dots on the card and "Convert to issue".  
+
 ![img.png](images/convertissue.png)
 
 7) Then a screen will open to select the project repository and click "Convert to issue"
@@ -61,6 +64,7 @@ c.	Template: Select the "Basic Kanban" template.
 ![img.png](images/convertnoteissue.png)
 
 8) It will look like this.
+
 ![img.png](images/card1.png)
 
 9) To close issue, move to "Done" column.  Click on the issue and then on "Close issue".
