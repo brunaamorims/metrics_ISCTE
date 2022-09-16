@@ -31,7 +31,7 @@ a.	Go to the "Projects" tab
 b.	Option "Projects"
 
 c.	Click on "New Project"
-![image](https://user-images.githubusercontent.com/93287789/190500484-61a2ed4d-45e8-493f-a993-dba036318f0b.png)
+![img.png](images/project.png)
 
 3) Enter the required data from the Board and click on "Create Project".
 
@@ -41,35 +41,35 @@ b.	Description
 
 c.	Template: Select the "Basic Kanban" template.
 
-![image](https://user-images.githubusercontent.com/93287789/190501736-b8d543e1-8060-4a65-8bdf-72a362226b6c.png)
+![img.png](images/createproject.png)
 
-![image](https://user-images.githubusercontent.com/93287789/190501764-5806b31d-e06f-4273-a82a-711e6dd72a19.png)
+![img.png](images/projectteemplate.png)
 
 
 4) The frame will be created as follows.
-![image](https://user-images.githubusercontent.com/93287789/190502380-eb8128d4-b833-4841-808b-a901c395d382.png)
+![img.png](images/projectteste.png)
 
 5) To create issues click on the "+", set card text and add (Add).
 
-![image](https://user-images.githubusercontent.com/93287789/190502633-15a4637b-dc91-476f-9af2-909284d4ff54.png)
+![img.png](images/projetoteste1.png)
 
 6) After creation, you must convert the card to issue. Click on the three dots on the card and "Convert to issue".  
-![image](https://user-images.githubusercontent.com/93287789/190503132-ae060985-c515-4a41-96d2-af75f59b48d8.png)
+![img.png](images/convertissue.png)
 
 7) Then a screen will open to select the project repository and click "Convert to issue"
 
-![image](https://user-images.githubusercontent.com/93287789/190503868-91c2b9a1-2841-4504-a530-4397adea860b.png)
+![img.png](images/convertnoteissue.png)
 
 8) It will look like this.
-![image](https://user-images.githubusercontent.com/93287789/190504133-1c075bf8-e5e3-423a-8913-5b5214651d7a.png)
+![img.png](images/card1.png)
 
 9) To close issue, move to "Done" column.  Click on the issue and then on "Close issue".
 
-![image](https://user-images.githubusercontent.com/93287789/190504389-7c0a4dd8-4cc7-4000-aeb1-fff891b4ed61.png)
+![img.png](images/criadocard1.png)
 
 Clicking on the issue -> will open the following option to close.
 
-![image](https://user-images.githubusercontent.com/93287789/190504596-5b5d3eab-e254-48a8-9460-5be2bb0316c4.png)
+![img.png](images/closeissue.png)
 
 
 # Giro (http://3.249.103.74/)
